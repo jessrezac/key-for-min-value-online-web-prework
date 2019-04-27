@@ -11,8 +11,10 @@ def key_for_min_value(name_hash)
     elsif cost < min_value
       min_value = cost
       min_key = item
+    elsif cost == nil
+      min_key = nil
     end
   end
-  
+
   return min_key
 end

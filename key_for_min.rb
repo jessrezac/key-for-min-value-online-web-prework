@@ -13,8 +13,6 @@ def key_for_min_value(name_hash)
       min_key = item
     end
   end
-
-  puts min_key
-
+  
   return min_key
 end
